@@ -62,7 +62,9 @@ git remote -v
 
 ### Why are pull requests called "Pull Requests"? (wrong answer)
 
-Pull requests are so named basically because you are asking to _pull_ changes from a remote to your local repository. And that's because you have to ask permission to copy changes out of the repository, even if you have read access to that repository.
+A pull request, is a proposal to merge changes from one branch into another, often from a forked repository into the main repository. It allows contributors to request that repository maintainers review and integrate their changes. Pull requests are particularly useful in open-source projects where contributors may not have direct write access to the main repository.
+
+When you create a pull request, GitHub displays the differences (or "diffs") between the source branch (your changes) and the target branch (the branch you want to merge into). Collaborators can review the changes, provide feedback, and discuss the proposed updates. Once the changes are approved, they can be merged into the target branch.
 
 <!--TODO: This answer is SO wrong, I think we need to fix it! -->
 
